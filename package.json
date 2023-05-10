@@ -1,0 +1,25 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "Start Backend in Node and Express",
+  "main": "index.js",
+  "type":"module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev":"nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/parvez538/Node-and-Express-For-Backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/parvez538/Node-and-Express-For-Backend/issues"
+  },
+  "homepage": "https://github.com/parvez538/Node-and-Express-For-Backend#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
